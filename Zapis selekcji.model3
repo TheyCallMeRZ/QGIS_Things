@@ -1,0 +1,165 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="native:saveselectedfeatures_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="native:saveselectedfeatures"/>
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="529"/>
+        <Option type="double" name="component_pos_y" value="175"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="Wyodrębnij zaznaczone obiekty"/>
+      <Option type="double" name="component_height" value="53"/>
+      <Option type="double" name="component_pos_x" value="679"/>
+      <Option type="double" name="component_pos_y" value="278.5"/>
+      <Option type="double" name="component_width" value="276"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="native:saveselectedfeatures_1"/>
+      <Option name="outputs"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="wybierz_warstw_populacji"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OUTPUT">
+          <Option type="Map">
+            <Option type="QString" name="expression" value=" @gdzie_zapisa  || '\\' ||@nazwa_pliku || '.csv'"/>
+            <Option type="int" name="source" value="3"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option type="Map" name="designerParameterValues">
+    <Option type="QString" name="gdzie_zapisa" value="C:\Users\Przemyslaw.Reginia\OneDrive - Rossmann SDP\Pulpit\QGIS TEST"/>
+    <Option type="QString" name="nazwa_pliku" value="test"/>
+    <Option type="QString" name="wybierz_warstw_populacji" value="Warstwa_ze_z__czeniem_dd81e57f_87a2_468e_887c_3d7faa194ca5"/>
+  </Option>
+  <Option name="groupBoxes"/>
+  <Option name="help"/>
+  <Option type="QString" name="internal_version" value="Version2"/>
+  <Option type="Map" name="modelVariables">
+    <Option type="QString" name="Zapis" value=""/>
+  </Option>
+  <Option type="QString" name="model_group" value=""/>
+  <Option type="QString" name="model_name" value="Zapis selekcji"/>
+  <Option type="QString" name="outputGroup" value=""/>
+  <Option name="outputOrder"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="gdzie_zapisa">
+      <Option type="int" name="behavior" value="1"/>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" name="description" value="Gdzie zapisać"/>
+      <Option type="QString" name="extension" value=""/>
+      <Option type="QString" name="filefilter" value="Wszystkie pliki (*.*)"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="gdzie_zapisa"/>
+      <Option type="QString" name="parameter_type" value="file"/>
+    </Option>
+    <Option type="Map" name="nazwa_pliku">
+      <Option type="QString" name="default" value="save"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" name="description" value="Nazwa pliku"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="bool" name="multiline" value="false"/>
+      <Option type="QString" name="name" value="nazwa_pliku"/>
+      <Option type="QString" name="parameter_type" value="string"/>
+    </Option>
+    <Option type="Map" name="wybierz_warstw_populacji">
+      <Option type="List" name="data_types">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option type="QString" name="description" value="Wybierz warstwę populacji"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" name="help" value=""/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="wybierz_warstw_populacji"/>
+      <Option type="QString" name="parameter_type" value="vector"/>
+    </Option>
+  </Option>
+  <Option name="parameterOrder"/>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="gdzie_zapisa">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="647"/>
+        <Option type="double" name="component_pos_y" value="50"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="gdzie_zapisa"/>
+      <Option type="double" name="component_height" value="43"/>
+      <Option type="double" name="component_pos_x" value="268"/>
+      <Option type="double" name="component_pos_y" value="84.5"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="gdzie_zapisa"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+    <Option type="Map" name="nazwa_pliku">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="404"/>
+        <Option type="double" name="component_pos_y" value="16"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="nazwa_pliku"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="257"/>
+      <Option type="double" name="component_pos_y" value="212"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="nazwa_pliku"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+    <Option type="Map" name="wybierz_warstw_populacji">
+      <Option type="QString" name="color" value=""/>
+      <Option type="Map" name="comment">
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="455"/>
+        <Option type="double" name="component_pos_y" value="78"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
+      </Option>
+      <Option type="QString" name="component_description" value="wybierz_warstw_populacji"/>
+      <Option type="double" name="component_height" value="37"/>
+      <Option type="double" name="component_pos_x" value="664"/>
+      <Option type="double" name="component_pos_y" value="73.5"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="wybierz_warstw_populacji"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+    </Option>
+  </Option>
+</Option>
