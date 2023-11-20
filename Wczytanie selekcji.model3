@@ -201,7 +201,7 @@
     </Option>
   </Option>
   <Option type="Map" name="designerParameterValues">
-    <Option type="QString" name="csv" value="C:/Users/Przemyslaw.Reginia/OneDrive - Rossmann SDP/Pulpit/QGIS TEST/test.csv"/>
+    <Option type="QString" name="csv" value=""/>
     <Option type="QString" name="gridy" value="Grid_1km_2021_2e187665_91ad_4c4c_8caa_2f24e6151ae0"/>
   </Option>
   <Option name="groupBoxes"/>
