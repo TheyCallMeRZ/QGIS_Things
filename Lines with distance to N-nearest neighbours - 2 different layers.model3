@@ -211,7 +211,7 @@
     <Option value="10" name="ilo_ssiadw" type="int"/>
     <Option value="Nr drogeri" name="nr" type="QString"/>
     <Option value="Nowa_warstwa_tymczasowa_e5dc9bac_9f95_47d9_a96b_12a659d6d020" name="punkt_startowy" type="QString"/>
-    <Option value="Rossmann_cc9ecf62_94fb_4a98_99c8_b7ac1e62e934" name="target" type="QString"/>
+    <Option value="select" name="target" type="QString"/>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
@@ -273,7 +273,7 @@
       <Option name="default" type="invalid"/>
       <Option name="defaultGui" type="invalid"/>
       <Option value="false" name="default_to_all_fields" type="bool"/>
-      <Option value="Numer drogerii" name="description" type="QString"/>
+      <Option value="Nr" name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
       <Option value="" name="help" type="QString"/>
       <Option name="metadata"/>
@@ -300,7 +300,7 @@
       </Option>
       <Option name="default" type="invalid"/>
       <Option name="defaultGui" type="invalid"/>
-      <Option value="Warstwa istniejących Rossmannów" name="description" type="QString"/>
+      <Option value="Warstwa istniejących punktów" name="description" type="QString"/>
       <Option value="0" name="flags" type="int"/>
       <Option value="" name="help" type="QString"/>
       <Option name="metadata"/>
