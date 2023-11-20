@@ -43,7 +43,7 @@
     </Option>
   </Option>
   <Option type="Map" name="designerParameterValues">
-    <Option type="QString" name="gdzie_zapisa" value="C:\Users\Przemyslaw.Reginia\OneDrive - Rossmann SDP\Pulpit\QGIS TEST"/>
+    <Option type="QString" name="gdzie_zapisa" value="p"/>
     <Option type="QString" name="nazwa_pliku" value="test"/>
     <Option type="QString" name="wybierz_warstw_populacji" value="Warstwa_ze_z__czeniem_dd81e57f_87a2_468e_887c_3d7faa194ca5"/>
   </Option>
