@@ -29,7 +29,7 @@
       <Option name="params" type="Map">
         <Option name="INPUT" type="List">
           <Option type="Map">
-            <Option value="warstwa_istniejcych_rossmannw" name="parameter_name" type="QString"/>
+            <Option value="target" name="parameter_name" type="QString"/>
             <Option value="0" name="source" type="int"/>
           </Option>
         </Option>
@@ -102,13 +102,13 @@
         </Option>
         <Option name="TARGET" type="List">
           <Option type="Map">
-            <Option value="warstwa_istniejcych_rossmannw" name="parameter_name" type="QString"/>
+            <Option value="target" name="parameter_name" type="QString"/>
             <Option value="0" name="source" type="int"/>
           </Option>
         </Option>
         <Option name="TARGET_FIELD" type="List">
           <Option type="Map">
-            <Option value="numer_drogerii" name="parameter_name" type="QString"/>
+            <Option value="nr" name="parameter_name" type="QString"/>
             <Option value="0" name="source" type="int"/>
           </Option>
         </Option>
@@ -209,9 +209,9 @@
     </Option>
     <Option value="id" name="id" type="QString"/>
     <Option value="10" name="ilo_ssiadw" type="int"/>
-    <Option value="Nr drogeri" name="numer_drogerii" type="QString"/>
+    <Option value="Nr drogeri" name="nr" type="QString"/>
     <Option value="Nowa_warstwa_tymczasowa_e5dc9bac_9f95_47d9_a96b_12a659d6d020" name="punkt_startowy" type="QString"/>
-    <Option value="Rossmann_cc9ecf62_94fb_4a98_99c8_b7ac1e62e934" name="warstwa_istniejcych_rossmannw" type="QString"/>
+    <Option value="Rossmann_cc9ecf62_94fb_4a98_99c8_b7ac1e62e934" name="target" type="QString"/>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
@@ -267,7 +267,7 @@
       <Option value="ilo_ssiadw" name="name" type="QString"/>
       <Option value="number" name="parameter_type" type="QString"/>
     </Option>
-    <Option name="numer_drogerii" type="Map">
+    <Option name="nr" type="Map">
       <Option value="false" name="allow_multiple" type="bool"/>
       <Option value="-1" name="data_type" type="int"/>
       <Option name="default" type="invalid"/>
@@ -277,9 +277,9 @@
       <Option value="0" name="flags" type="int"/>
       <Option value="" name="help" type="QString"/>
       <Option name="metadata"/>
-      <Option value="numer_drogerii" name="name" type="QString"/>
+      <Option value="nr" name="name" type="QString"/>
       <Option value="field" name="parameter_type" type="QString"/>
-      <Option value="warstwa_istniejcych_rossmannw" name="parent_layer" type="QString"/>
+      <Option value="target" name="parent_layer" type="QString"/>
     </Option>
     <Option name="punkt_startowy" type="Map">
       <Option name="data_types" type="List">
@@ -294,7 +294,7 @@
       <Option value="punkt_startowy" name="name" type="QString"/>
       <Option value="source" name="parameter_type" type="QString"/>
     </Option>
-    <Option name="warstwa_istniejcych_rossmannw" type="Map">
+    <Option name="target" type="Map">
       <Option name="data_types" type="List">
         <Option value="0" type="int"/>
       </Option>
@@ -304,7 +304,7 @@
       <Option value="0" name="flags" type="int"/>
       <Option value="" name="help" type="QString"/>
       <Option name="metadata"/>
-      <Option value="warstwa_istniejcych_rossmannw" name="name" type="QString"/>
+      <Option value="target" name="name" type="QString"/>
       <Option value="vector" name="parameter_type" type="QString"/>
     </Option>
   </Option>
@@ -352,7 +352,7 @@
       <Option value="true" name="outputs_collapsed" type="bool"/>
       <Option value="true" name="parameters_collapsed" type="bool"/>
     </Option>
-    <Option name="numer_drogerii" type="Map">
+    <Option name="nr" type="Map">
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
         <Option value="" name="color" type="QString"/>
@@ -364,12 +364,12 @@
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="numer_drogerii" name="component_description" type="QString"/>
+      <Option value="nr" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
       <Option value="116" name="component_pos_x" type="double"/>
       <Option value="253" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
-      <Option value="numer_drogerii" name="name" type="QString"/>
+      <Option value="nr" name="name" type="QString"/>
       <Option value="true" name="outputs_collapsed" type="bool"/>
       <Option value="true" name="parameters_collapsed" type="bool"/>
     </Option>
@@ -394,7 +394,7 @@
       <Option value="true" name="outputs_collapsed" type="bool"/>
       <Option value="true" name="parameters_collapsed" type="bool"/>
     </Option>
-    <Option name="warstwa_istniejcych_rossmannw" type="Map">
+    <Option name="target" type="Map">
       <Option value="" name="color" type="QString"/>
       <Option name="comment" type="Map">
         <Option value="" name="color" type="QString"/>
@@ -406,12 +406,12 @@
         <Option value="true" name="outputs_collapsed" type="bool"/>
         <Option value="true" name="parameters_collapsed" type="bool"/>
       </Option>
-      <Option value="warstwa_istniejcych_rossmannw" name="component_description" type="QString"/>
+      <Option value="target" name="component_description" type="QString"/>
       <Option value="30" name="component_height" type="double"/>
       <Option value="130" name="component_pos_x" type="double"/>
       <Option value="195" name="component_pos_y" type="double"/>
       <Option value="200" name="component_width" type="double"/>
-      <Option value="warstwa_istniejcych_rossmannw" name="name" type="QString"/>
+      <Option value="target" name="name" type="QString"/>
       <Option value="true" name="outputs_collapsed" type="bool"/>
       <Option value="true" name="parameters_collapsed" type="bool"/>
     </Option>
